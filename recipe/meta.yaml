@@ -38,8 +38,7 @@ test:
 
 about:
   home: https://github.com/ninia/jep
-  license: zlib/libpng
-  license_family: OTHER
+  license: Zlib
   license_file: LICENSE
   summary: Jep embeds CPython in Java
   dev_url: https://github.com/ninia/jep
