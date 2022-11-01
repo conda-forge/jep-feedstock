@@ -3,7 +3,7 @@ About jep
 
 Home: https://github.com/ninia/jep
 
-Package license: zlib/libpng
+Package license: Zlib
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jep-feedstock/blob/main/LICENSE.txt)
 
@@ -29,10 +29,24 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_64_numpy1.20python3.8.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8977&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jep-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.20python3.8.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_numpy1.20python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8977&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jep-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.20python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_numpy1.20python3.9.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8977&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jep-feedstock?branchName=main&jobName=linux&configuration=linux_64_numpy1.20python3.9.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
