@@ -25,11 +25,11 @@ requirements:
     - pip
     - python
     - openjdk ==8.*
+    - setuptools
     - numpy
   run:
     - python
     - openjdk ==8.*
-    - {{ pin_compatible('numpy') }}
 
 test:
   commands:
