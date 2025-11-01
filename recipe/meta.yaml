@@ -1,5 +1,5 @@
 {% set name = "jep" %}
-{% set version = "4.2.2" %}
+{% set version = "4.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4eb79d903133e468c239ba39c8bb5ade021ef202025bf1c9b34a210003e0eab9
+  sha256: 8984acd9e2424dcb1325020e43b4bb7b67e1cf4b9011f1bee7a3f4130a344907
 
 build:
   number: 0
