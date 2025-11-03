@@ -10,7 +10,7 @@ source:
   sha256: 4eb79d903133e468c239ba39c8bb5ade021ef202025bf1c9b34a210003e0eab9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [not linux]
   missing_dso_whitelist:
@@ -25,11 +25,11 @@ requirements:
     - pip
     - python
     - openjdk ==8.*
+    - setuptools
     - numpy
   run:
     - python
     - openjdk ==8.*
-    - {{ pin_compatible('numpy') }}
 
 test:
   commands:
