@@ -1,5 +1,5 @@
 {% set name = "jep" %}
-{% set version = "4.2.2" %}
+{% set version = "4.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4eb79d903133e468c239ba39c8bb5ade021ef202025bf1c9b34a210003e0eab9
+  sha256: 33336f6afc37e1a4888586a2f0017ac01e2093891640ce1b41cbbf35f4317a9f
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [not linux]
   missing_dso_whitelist:
