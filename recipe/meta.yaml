@@ -1,13 +1,13 @@
 {% set name = "jep" %}
-{% set version = "4.3.1" %}
+{% set version = "4.3.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 33336f6afc37e1a4888586a2f0017ac01e2093891640ce1b41cbbf35f4317a9f
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 4deb6f9f5bc993a0818861efc5323ccc71373c4c38f303fc412998f02dde6e5c
 
 build:
   number: 0
