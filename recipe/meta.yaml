@@ -10,7 +10,7 @@ source:
   sha256: 4deb6f9f5bc993a0818861efc5323ccc71373c4c38f303fc412998f02dde6e5c
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [not linux]
   missing_dso_whitelist:
