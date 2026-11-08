@@ -1,5 +1,5 @@
 {% set name = "jep" %}
-{% set version = "4.3.2" %}
+{% set version = "4.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4deb6f9f5bc993a0818861efc5323ccc71373c4c38f303fc412998f02dde6e5c
+  sha256: 152e66e940ba4d17eebf04cdb973de25b1c5843612e51ebcbd4264065b806c8a
 
 build:
   number: 0
